@@ -36,6 +36,7 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	border-radius: 5px;
 }
 
 /* Chat Page */
@@ -140,13 +141,15 @@ a {
 	text-align: center;
 	padding: 20px;
 	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .join-main {
 	padding: 30px 40px;
 	background: var(--dark-color-b);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 .join-main p {
